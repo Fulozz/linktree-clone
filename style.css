@@ -37,13 +37,15 @@ body{
     font-family: var(--body-font) ;
 }
 
-.container{
-    max-width: 100vh;
+header{
+    background-color: #000;
+    height: 200px;
 }
-.grid{
-    display: grid;
-    gap: 1.9rem ;
-}
+
+
+
+
+
 .flex{
     display: flex;
     align-items: center;
@@ -52,12 +54,16 @@ body{
 }
 
 .img_container{
+    position: relative;
+    left: 45%;
     height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     /* change this to the background image */
     background-color: navy;
 }
+
 
 .pp_container{
     position: relative;
